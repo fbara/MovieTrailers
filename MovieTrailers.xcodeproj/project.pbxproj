@@ -13,6 +13,9 @@
 		AD1A963723B50C32005DDBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1A963623B50C32005DDBFB /* Assets.xcassets */; };
 		AD1A963A23B50C32005DDBFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1A963923B50C32005DDBFB /* Preview Assets.xcassets */; };
 		AD1A963D23B50C32005DDBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1A963B23B50C32005DDBFB /* LaunchScreen.storyboard */; };
+		AD1A964623B50E94005DDBFB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A964523B50E94005DDBFB /* Movie.swift */; };
+		AD1A964823B51029005DDBFB /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1A964723B51029005DDBFB /* Movies.json */; };
+		AD1A964A23B5106A005DDBFB /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A964923B5106A005DDBFB /* MovieData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AD1A963923B50C32005DDBFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD1A963C23B50C32005DDBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD1A963E23B50C32005DDBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1A964523B50E94005DDBFB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AD1A964723B51029005DDBFB /* Movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
+		AD1A964923B5106A005DDBFB /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		AD1A962423B50C30005DDBFB = {
 			isa = PBXGroup;
 			children = (
+				AD1A964423B50E70005DDBFB /* Models */,
 				AD1A962F23B50C30005DDBFB /* MovieTrailers */,
 				AD1A962E23B50C30005DDBFB /* Products */,
 			);
@@ -63,6 +70,8 @@
 				AD1A963B23B50C32005DDBFB /* LaunchScreen.storyboard */,
 				AD1A963E23B50C32005DDBFB /* Info.plist */,
 				AD1A963823B50C32005DDBFB /* Preview Content */,
+				AD1A964723B51029005DDBFB /* Movies.json */,
+				AD1A964923B5106A005DDBFB /* MovieData.swift */,
 			);
 			path = MovieTrailers;
 			sourceTree = "<group>";
@@ -73,6 +82,14 @@
 				AD1A963923B50C32005DDBFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD1A964423B50E70005DDBFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A964523B50E94005DDBFB /* Movie.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +152,7 @@
 			files = (
 				AD1A963D23B50C32005DDBFB /* LaunchScreen.storyboard in Resources */,
 				AD1A963A23B50C32005DDBFB /* Preview Assets.xcassets in Resources */,
+				AD1A964823B51029005DDBFB /* Movies.json in Resources */,
 				AD1A963723B50C32005DDBFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +166,8 @@
 			files = (
 				AD1A963123B50C30005DDBFB /* AppDelegate.swift in Sources */,
 				AD1A963323B50C30005DDBFB /* SceneDelegate.swift in Sources */,
+				AD1A964623B50E94005DDBFB /* Movie.swift in Sources */,
+				AD1A964A23B5106A005DDBFB /* MovieData.swift in Sources */,
 				AD1A963523B50C30005DDBFB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
