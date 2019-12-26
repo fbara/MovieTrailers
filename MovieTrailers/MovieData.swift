@@ -9,7 +9,7 @@
 
 import Foundation
 
-let moviesData: [Movie] = load("Movies.json")
+let moviesData: [Movie] = load("movies.json")
 
 func load<T:Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data

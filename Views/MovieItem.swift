@@ -40,6 +40,6 @@ struct MovieItem: View {
 
 struct MovieItem_Previews: PreviewProvider {
     static var previews: some View {
-        MovieItem(movie: moviesData.first!)
+        MovieItem(movie: moviesData[0])
     }
 }
