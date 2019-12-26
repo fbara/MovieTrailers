@@ -16,6 +16,7 @@
 		AD1A964623B50E94005DDBFB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A964523B50E94005DDBFB /* Movie.swift */; };
 		AD1A964823B51029005DDBFB /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1A964723B51029005DDBFB /* Movies.json */; };
 		AD1A964A23B5106A005DDBFB /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A964923B5106A005DDBFB /* MovieData.swift */; };
+		AD1A964C23B512E0005DDBFB /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A964B23B512E0005DDBFB /* MovieItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AD1A964523B50E94005DDBFB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		AD1A964723B51029005DDBFB /* Movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
 		AD1A964923B5106A005DDBFB /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		AD1A964B23B512E0005DDBFB /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				AD1A963823B50C32005DDBFB /* Preview Content */,
 				AD1A964723B51029005DDBFB /* Movies.json */,
 				AD1A964923B5106A005DDBFB /* MovieData.swift */,
+				AD1A964B23B512E0005DDBFB /* MovieItem.swift */,
 			);
 			path = MovieTrailers;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				AD1A963123B50C30005DDBFB /* AppDelegate.swift in Sources */,
 				AD1A963323B50C30005DDBFB /* SceneDelegate.swift in Sources */,
 				AD1A964623B50E94005DDBFB /* Movie.swift in Sources */,
+				AD1A964C23B512E0005DDBFB /* MovieItem.swift in Sources */,
 				AD1A964A23B5106A005DDBFB /* MovieData.swift in Sources */,
 				AD1A963523B50C30005DDBFB /* ContentView.swift in Sources */,
 			);
